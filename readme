@@ -1,0 +1,70 @@
+
+
+                     JS
+
+    console.log("rock clicker");
+
+
+
+
+
+let pierre = document.getElementById("pierre_player");
+pierre.addEventListener('click', function () {
+    playerChoice = "pierre";
+    makegame();
+    // winner(playerChoice, computerChoice);
+});
+
+let feuille = document.getElementById("feuille_player");
+feuille.addEventListener("click", function () {
+    playerChoice = "feuille";
+    makegame();
+    // winner(playerChoice, computerChoice);
+});
+
+let ciseaux = document.getElementById("ciseaux_player");
+ciseaux.addEventListener("click", function () {
+    playerChoice = "ciseaux";
+    makegame();
+    // winner(playerChoice, computerChoice);
+});
+
+// function winner(playerChoice, computerChoice) {
+//     //choice of player rock
+//     if (playerChoice === "pierre") {
+//         if (computerChoice === "ciseaux") {
+//             score_player++;
+//             result.innerHTML = "Vous gagnez";
+//         } else if (computerChoice === "feuille") {
+//             score_pc++;
+//             result.innerHTML = "L'ordi gagne";
+//         }
+//     }
+//
+//     //choice of player paper
+//     if (playerChoice === "feuille") {
+//         if (computerChoice === "pierre") {
+//             score_player++;
+//             result.innerHTML = "Vous gagnez";
+//         } else if (computerChoice === "ciseaux") {
+//             score_pc++;
+//             result.innerHTML = "L'ordi gagne";
+//         }
+//     }
+//     //choice of player chisel
+//     if (playerChoice === "ciseaux") {
+//         if (computerChoice === "feuille") {
+//             score_player++;
+//             result.innerHTML = "Vous gagnez";
+//         } else if (computerChoice === "pierre")
+//         {
+//             score_pc++
+//             result.innerHTML = "L'ordi gagne";
+//         }
+//     }
+//
+//     player_point.innerHTML = score_player;
+//     pc_point.innerHTML = score_pc;
+// }
+
+

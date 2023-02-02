@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+body {
+
+}
+
+#content {
+    align-items: center;
+    justify-content: center;
+}
+
+.title1 {
+    color: coral;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.title2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30rem;
+    margin-left: auto;
+    width: 70%;
+}
+
+.h_c, .h_p {
+    text-decoration: underline;
+}
+
+.point_c, .point_p {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    background: lightcyan;
+    height: 7rem;
+    width: 5rem;
+
+}
+
+.fa-computer, .fa-regular {
+    font-size: 10rem;
+}
+
+.point_nom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 96%;
+}
+
+.choix {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 40%;
+}
+
+.choix_du_pc, .choix_du_player {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 5rem;
+}
+
+.choix_du_pc {
+    margin-left: -4rem;
+}
+
+.imgs_pc_player {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 35rem;
+    margin-top: 1rem;
+
+}
+
+.imgs_player {
+    margin-right: 42em;
+}
+
+.imgs_player > img {
+    height: 10rem;
+}
+
+#imgs_pc {
+    width: 20rem;
+    height: 20.5rem;
+}
+
+#pc_point {
+    margin-left: -3rem;
+    margin-top: 3rem;
+}
+
+#player_point {
+    margin-left: -3rem;
+    margin-top: 3rem;
+}
+
+#result {
+    margin-left: 80rem;
+
+}
